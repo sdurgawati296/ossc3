@@ -1,0 +1,13 @@
+{
+  "name": "ossc-autoscorer-parser",
+  "version": "1.0.0",
+  "description": "Parser service for Digialm response pages - returns QID -> chosenOptionID map",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0"
+  }
+}
